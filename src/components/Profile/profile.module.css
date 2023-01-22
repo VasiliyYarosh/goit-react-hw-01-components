@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+.wrapper {
+    padding-top: 1px;
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+}
+
+.profile {
+    position: relative;
+    padding-top: 50px;
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    width: 355px;
+    height: 465px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    margin-bottom: 20px;
+    border: 2px solid green;
+    border-radius: 100%;
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+.tag, .location {
+    margin-bottom: 10px;
+    color: gray;
+    font-size:  15px;
+}
+
+
+.stats {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    left: 0;
+    bottom: 0px;  
+    width: 355px;
+    height: 68px;
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgrey;
+    width: 118px;
+    background-color: rgb(177, 176, 176);
+}
+
+.label {
+    color: lightgrey;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.quantity {
+    font-weight: bold;
+}
